@@ -28,7 +28,7 @@ st.markdown(
     }
     .stButton>button {
         background-color: #ffffff; /* Gold background for buttons */
-        color: white; /* Black text on buttons */
+        color: #FFFFFF; /* Black text on buttons */
     }
     .streamlit-expanderHeader {
         color: #ffffff;  /* Gold for expander header */
