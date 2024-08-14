@@ -20,7 +20,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 # Application title and description
-st.title(":white[Data Analytics Web Application"])
+st.title(":white[Data Analytics Web Application]")
 st.caption("### Developed by Arghyadeep Aich")
 
 st.subheader("Data Analysis Made Simple: Upload your Excel or CSV files to effortlessly generate powerful insights—No coding skills needed!")
