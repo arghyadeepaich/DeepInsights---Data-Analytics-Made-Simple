@@ -34,7 +34,7 @@ st.markdown(
         color: #ffffff;  /* Gold for expander header */
     }
     .st-expander-content {
-        background-color: #5C166F;  /* Match background with page color or use any other color */
+        background-color: #000000;  /* Match background with page color or use any other color */
         color: #ffffff;  /* Set text color inside the expander */
     </style>
     """,
