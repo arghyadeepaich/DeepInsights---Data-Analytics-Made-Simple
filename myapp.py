@@ -100,24 +100,28 @@ else:
 
 st.subheader(':grey[Column Values To Count]',divider='rainbow')
 with st.expander('Value Count'):
-    col1, col2 = st.columns(2)
-    with col1:
-        column = st.selectbox('Choose Column name', options=list(data.columns))
-    with col2:
-        toprows = st.number_input('Top rows', min_value=1, step=1)
-    
-    count = st.button('Count')
-    if count:
-        result = data[column].value_counts().reset_index().head(toprows)
-        st.dataframe(result)
-        #Visualization
-        st.subheader('Visualization', divider='gray')
-        fig = px.bar(data_frame=result, x=column, y='count', text='count', template='plotly_white')
-        st.plotly_chart(fig)
-        fig = px.line(data_frame=result, x=column, y='count', text='count', template='plotly_white')
-        st.plotly_chart(fig)
-        fig = px.pie(data_frame=result, names=column, values='count')
-        st.plotly_chart(fig)
+    if data is not None:
+        col1, col2 = st.columns(2)
+        with col1:
+            column = st.selectbox('Choose Column name', options=list(data.columns))
+        with col2:
+            toprows = st.number_input('Top rows', min_value=1, step=1)
+        
+        count = st.button('Count')
+        if count:
+            result = data[column].value_counts().reset_index().head(toprows)
+            st.dataframe(result)
+            # Visualization
+            st.subheader('Visualization', divider='gray')
+            fig = px.bar(data_frame=result, x=column, y='count', text='count', template='plotly_white')
+            st.plotly_chart(fig)
+            fig = px.line(data_frame=result, x=column, y='count', text='count', template='plotly_white')
+            st.plotly_chart(fig)
+            fig = px.pie(data_frame=result, names=column, values='count')
+            st.plotly_chart(fig)
+    else:
+        st.warning("Please upload a file to perform value counting operations.")
+
 # Groupby functionality for data summarization
 st.subheader("Group By: Simplifying Data Analysis")
 st.write('Use the groupby feature to summarize data based on specific categories.')
