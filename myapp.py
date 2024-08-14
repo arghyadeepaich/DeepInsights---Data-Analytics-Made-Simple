@@ -24,7 +24,7 @@ st.markdown(
         color: #FFD700;  /* Gold for captions */
     }
     .stTabs [data-baseweb="tab"] {
-        color: #000000;  /* Light gray for tab labels */
+        color: #ffffff;  /* Light gray for tab labels */
     }
     .stButton>button {
         background-color: #FFD700; /* Gold background for buttons */
