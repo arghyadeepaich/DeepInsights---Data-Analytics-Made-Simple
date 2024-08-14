@@ -21,7 +21,7 @@ st.markdown(
         color: #ffffff;  /* Light gray for general text */
     }
     .stCaption {
-        color: #FFD700;  /* Gold for captions */
+        color: #ffffff;  /* Gold for captions */
     }
     .stTabs [data-baseweb="tab"] {
         color: #ffffff;  /* Light gray for tab labels */
