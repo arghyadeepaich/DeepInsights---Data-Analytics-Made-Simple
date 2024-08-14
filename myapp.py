@@ -7,18 +7,33 @@ st.set_page_config(
     page_title="DeepInsights",
     page_icon="📊",
     layout="wide",
-)
 st.markdown(
     """
     <style>
     .stApp {
         background-color: #5C166F; 
-   
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #FFFFFF;  /* White for headers */
+    }
+    .stMarkdown p {
+        color: #E0E0E0;  /* Light gray for general text */
+    }
+    .stCaption {
+        color: #FFD700;  /* Gold for captions */
+    }
+    .stTabs [data-baseweb="tab"] {
+        color: #E0E0E0;  /* Light gray for tab labels */
+    }
+    .stButton>button {
+        background-color: #FFD700; /* Gold background for buttons */
+        color: black; /* Black text on buttons */
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
 # Application title and description
 st.title("Data Analytics Web Application")
 st.caption("### Developed by Arghyadeep Aich")
