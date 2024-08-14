@@ -7,6 +7,7 @@ st.set_page_config(
     page_title="DeepInsights",
     page_icon="📊",
     layout="wide",
+)
 st.markdown(
     """
     <style>
