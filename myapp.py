@@ -29,13 +29,15 @@ st.markdown(
     .stButton>button {
         background-color: #ffffff; /* Gold background for buttons */
         color: #FFFFFF; /* Black text on buttons */
-    }
+        
     .streamlit-expanderHeader {
-        color: #ffffff;  /* Gold for expander header */
+        color:  #FFFFFF !important
+   
     }
     .st-expander-content {
         background-color: #000000;  /* Match background with page color or use any other color */
         color: #ffffff;  /* Set text color inside the expander */
+    }
     </style>
     """,
     unsafe_allow_html=True,
