@@ -4,7 +4,7 @@ import streamlit as st
 
 # Configure the Streamlit page
 st.set_page_config(
-    page_title="Arghya's Data Analytics App",
+    page_title="DeepInsights",
     page_icon="📊",
     layout="wide",
 )
