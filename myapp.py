@@ -27,7 +27,7 @@ st.markdown(
         color: #ffffff;  /* Light gray for tab labels */
     }
     .stButton>button {
-        background-color: #FFD700; /* Gold background for buttons */
+        background-color: #ffffff; /* Gold background for buttons */
         color: white; /* Black text on buttons */
     }
     </style>
