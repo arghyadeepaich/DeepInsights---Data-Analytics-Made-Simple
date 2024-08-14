@@ -8,7 +8,17 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
 )
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #5C166F; 
+   
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 # Application title and description
 st.title("Data Analytics Web Application")
 st.caption("### Developed by Arghyadeep Aich")
