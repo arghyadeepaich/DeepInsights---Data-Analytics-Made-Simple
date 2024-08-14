@@ -18,7 +18,7 @@ st.markdown(
         color: #FFFFFF;  /* White for headers */
     }
     .stMarkdown p {
-        color: #E0E0E0;  /* Light gray for general text */
+        color: #000000;  /* Light gray for general text */
     }
     .stCaption {
         color: #FFD700;  /* Gold for captions */
