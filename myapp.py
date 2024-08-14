@@ -37,7 +37,7 @@ st.markdown(
 
 # Application title and description
 st.title("Data Analytics Web Application")
-st.caption("### Developed by Arghyadeep Aich")
+st.write(" Developed by Arghyadeep Aich")
 
 st.subheader("Data Analysis Made Simple: Upload your Excel or CSV files to effortlessly generate powerful insights—No coding skills needed!")
 
