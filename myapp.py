@@ -31,7 +31,7 @@ st.markdown(
         color: white; /* Black text on buttons */
     }
     .streamlit-expanderHeader {
-        color: #ffffff0;  /* Gold for expander header */
+        color: #ffffff;  /* Gold for expander header */
     }
     .st-expander-content {
         background-color: #5C166F;  /* Match background with page color or use any other color */
