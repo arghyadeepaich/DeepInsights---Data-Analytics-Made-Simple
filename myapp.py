@@ -12,17 +12,7 @@ st.set_page_config(
 # Application title and description
 st.title("Data Analytics Web Application")
 st.caption("### Developed by Arghyadeep Aich")
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #663399; 
-   
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+
 st.subheader("Data Analysis Made Simple: Upload your Excel or CSV files to effortlessly generate powerful insights—No coding skills needed!")
 
 # File uploader for user to upload data
