@@ -98,8 +98,6 @@ else:
     st.warning("Please upload a file to view dataset information.")
 
 
-    else:
-        st.warning("Please upload a file to perform value counts.")
 st.subheader(':grey[Column Values To Count]',divider='rainbow')
 with st.expander('Value Count'):
     col1, col2 = st.columns(2)
