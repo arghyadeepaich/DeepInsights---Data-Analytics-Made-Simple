@@ -22,6 +22,10 @@
 
 5. **Analyze and Download**: Get quick insights and, in future updates, you'll be able to download reports or visualizations for further use.
 
+## Live Demo
+Try out the TMKOC Old Episode Player live at:
+https://deepinsights.streamlit.app/
+
 ## Why Use DeepInsights?
 
 - **No Technical Knowledge Needed**: Perfect for users who don’t want to learn programming or use complex software to analyze data.
