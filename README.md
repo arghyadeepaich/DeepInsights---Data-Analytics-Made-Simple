@@ -1,9 +1,5 @@
-# DeepInsights---Data-Analytics-Made-Simple
-Here’s a revised README tailored for **non-technical users** who want to perform data analysis without dealing with coding or technicalities:
-
----
-
 # DeepInsights
+(Data Analytics Made Simple)
 
 **DeepInsights** is a web application built to help users perform data analysis without the need for any coding knowledge. Designed with simplicity in mind, DeepInsights allows you to upload your data and gain insights instantly, making data analysis accessible to everyone.
 
