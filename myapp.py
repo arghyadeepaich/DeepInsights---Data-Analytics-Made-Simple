@@ -203,36 +203,48 @@ st.set_page_config(
 )
 
 # Custom CSS styling
-st.markdown("""
+st.markdown(
+    """
     <style>
     .stApp {
-        background-color: #2E0240;
+        background-color: #5C166F; 
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #FFFFFF;
+        color: #FFFFFF;  /* White for headers */
     }
     .stMarkdown p {
-        color: #F0E6F6;
+        color: #FFFFFF;  /* White for general text */
     }
     .stCaption {
-        color: #FFD700;
+        color: #FFD700;  /* Gold for captions */
     }
     .stTabs [data-baseweb="tab"] {
-        color: #FFFFFF;
+        color: #FFFFFF;  /* White for tab labels */
     }
     .stButton>button {
-        background-color: #4CAF50 !important;
-        color: white !important;
+        background-color: #4CAF50; /* Green background for buttons */
+        color: #FFFFFF; /* White text on buttons */
     }
     .streamlit-expanderHeader {
-        color: #FFFFFF !important;
+        color: #FFFFFF !important; /* White for expander headers */
     }
     .st-expander-content {
-        background-color: #3A1E4D;
-        color: #FFFFFF;
+        background-color: #3A1E4D;  /* Darker purple for expander content */
+        color: #FFFFFF;  /* White text inside the expander */
+    }
+    .stSelectbox, .stMultiselect, .stNumberInput, .stSlider, .stRadio {
+        color: #FFFFFF;  /* White text for input widgets */
+    }
+    .stDataFrame {
+        color: #FFFFFF;  /* White text for dataframes */
+    }
+    .stWarning, .stError, .stSuccess {
+        color: #FFFFFF;  /* White text for messages */
     }
     </style>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True,
+)
 
 # Application title and description
 st.title("📈 DeepInsights Pro - Advanced Data Analytics")
