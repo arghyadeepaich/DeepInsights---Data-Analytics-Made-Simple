@@ -210,20 +210,20 @@ st.markdown(
         background-color: #F0F8FF; 
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #FFFFFF;  /* White for headers */
+        color: #000000;  /* White for headers */
     }
     .stMarkdown p {
-        color: #FFFFFF;  /* White for general text */
+        color: #000000;  /* White for general text */
     }
     .stCaption {
-        color: #FFD700;  /* Gold for captions */
+        color:#000000;  /* Gold for captions */
     }
     .stTabs [data-baseweb="tab"] {
-        color: #FFFFFF;  /* White for tab labels */
+        color: #000000;  /* White for tab labels */
     }
     .stButton>button {
         background-color: #4CAF50; /* Green background for buttons */
-        color: #FFFFFF; /* White text on buttons */
+        color:#000000; /* White text on buttons */
     }
     .streamlit-expanderHeader {
         color: #FFFFFF !important; /* White for expander headers */
@@ -233,13 +233,13 @@ st.markdown(
         color: #FFFFFF;  /* White text inside the expander */
     }
     .stSelectbox, .stMultiselect, .stNumberInput, .stSlider, .stRadio {
-        color: #FFFFFF;  /* White text for input widgets */
+        color: #000000;  /* White text for input widgets */
     }
     .stDataFrame {
-        color: #FFFFFF;  /* White text for dataframes */
+        color: #000000;  /* White text for dataframes */
     }
     .stWarning, .stError, .stSuccess {
-        color: #FFFFFF;  /* White text for messages */
+        color:#000000;  /* White text for messages */
     }
     </style>
     """,
