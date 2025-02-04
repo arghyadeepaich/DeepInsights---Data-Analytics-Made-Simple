@@ -207,7 +207,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #5C166F; 
+        background-color: #F0F8FF; 
     }
     h1, h2, h3, h4, h5, h6 {
         color: #FFFFFF;  /* White for headers */
